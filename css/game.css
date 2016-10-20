@@ -1,10 +1,18 @@
-.background    { background: rgb(0, 6, 45);
+.background    { background-image: url(https://i.ytimg.com/vi/8RZRE0M3Hvc/maxresdefault.jpg);
+					background-repeat: no-repeat;
+						background-attachment: fixed;
                  table-layout: fixed;
                  border-spacing: 0;   }
 .background td { padding: 0;          }
 .lava          { background: rgb(255, 50, 50); }
 .wall          { background: grey;   }
 .floater	   { background: green; }
+.coin		   { background: yellow; }
+.move		   { background: red; }
+.character	   { background: orange; }
+
+.actor {position: absolute; }
+.player {background : white;}
 
 .game {
   overflow: hidden;
