@@ -6,13 +6,12 @@
 .background td { padding: 0;          }
 .lava          { background: rgb(255, 50, 50); }
 .wall          { background: grey;   }
-.floater	   { background: green; }
-.coin		   { background: yellow; }
 .move		   { background: red; }
 .character	   { background: orange; }
 
 .actor {position: absolute; }
 .player {background : white;}
+.coin {background: rgb(241, 299, 89); }
 
 .game {
   overflow: hidden;
