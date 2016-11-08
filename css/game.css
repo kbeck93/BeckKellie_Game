@@ -1,16 +1,19 @@
-.background    { background-image: url(https://i.ytimg.com/vi/8RZRE0M3Hvc/maxresdefault.jpg);
+.background    { background: rgb(27, 86, 94);
 					background-repeat: no-repeat;
 						background-attachment: fixed;
                  table-layout: fixed;
                  border-spacing: 0;   }
 .background td { padding: 0;          }
-.lava          { background: rgb(255, 50, 50); }
-.wall          { background: grey;   }
+.lava          { background: rgb(168, 62, 62); }
+.wall          { background: rgb(72, 33, 103);   }
 .move		   { background: red; }
 .character	   { background: orange; }
+.enemy		   { background: rgb(154, 78, 42); }
+.boost		   { background: rgb(28, 103, 77); }
+.sloth		   { background: grey; }
 
 .actor {position: absolute; }
-.player {background : white;}
+.player {background : rgb(154, 145, 42); }
 .coin {background: rgb(241, 299, 89); }
 
 .game {
